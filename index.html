@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+    <form action="./details.html" method="post"> 
+    <table id="datatable">
+        <tr>
+            <td><input type="checkbox" name="checkbox" id="chk"></td>
+            <td><input type="text" name="compositename" id="cname" placeholder="Composite Name"></td>
+            <td><input type="text" name="lastname" id="rsion" placeholder="Revision"></td>
+            <td><input type="text" name="lastname" id="Pno" placeholder="Partition Name"></td>
+        </tr>
+    </table>
+        <input type = button class = "b" value = "Add new row" onclick = "row();">
+        <input type="button" value="Delete Checked rows" onclick="del();">
+        <button type="submit" onclick="getData();">Generate scripts</button>
+    </form>
+    
+    </div>
+    <script src="app.js" defer></script>
+</body>
+</html>
